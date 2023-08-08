@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: rgb(59, 59, 59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+}
+
+.sidebar li {
+    text-align: center;
+    list-style: none;
+    padding: 50px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 59, 59);
+}
+
+.links {
+    text-decoration: none;
+    color: orange;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: orange;
+}
