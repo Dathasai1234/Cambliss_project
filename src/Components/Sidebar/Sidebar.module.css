@@ -12,30 +12,17 @@
     top: 0;
     left: 0;
     z-index: 1;
-    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.sidebar li {
+.link {
+    text-decoration: none;
+    color: orange;
     text-align: center;
-    list-style: none;
-    padding: 50px 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    padding: 50px 30px;
 }
 
-.sidebar li:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(59, 59, 59);
-}
-
-.links {
-    text-decoration: none;
-    color: orange;
-}
-
-.links:hover {
-    text-decoration: none;
-    color: orange;
+.link:hover {
+    background-color: white;
 }

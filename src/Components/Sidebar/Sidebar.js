@@ -5,10 +5,9 @@ import styles from "./Sidebar.module.css"
 const Sidebar = () => {
     return (
         <div className={`${styles.sidebar}`}>
-            <ul>
-                <li><Link className={`${styles.links}`} to="/fileShare">File Sharing</Link></li>
-                <li><Link className={`${styles.links}`} to="/ordertrack">Order Tracker</Link></li>
-            </ul>
+            <Link className={`${styles.link}`} to="/">Home</Link>
+            <Link className={`${styles.link}`} to="/fileShare">File Sharing</Link>
+            <Link className={`${styles.link}`} to="/ordertrack">Order Tracker</Link>
         </div>
     )
 }
