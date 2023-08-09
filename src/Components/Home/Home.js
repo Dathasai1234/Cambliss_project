@@ -12,11 +12,6 @@ const Home = () => {
             <div className={styles.containers}>
                 <Background>
                     <div className={`${styles.hero}`}>
-                        {/* <h1>Home</h1>
-                        <ul>
-                            <li><Link to='/fileshare'>File</Link></li>
-                            <li><Link to='/ordertrack'>Object Tracking</Link></li>
-                        </ul> */}
                         <header>
                             <h1>Home</h1>
                             <ul>

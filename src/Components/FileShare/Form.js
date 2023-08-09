@@ -1,5 +1,3 @@
-// Form.js (React component)
-
 import React, { useState } from 'react';
 import axios from 'axios';
 import Style from './Form.module.css';
@@ -34,9 +32,6 @@ return (
     <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-
-        <label for="name" class="form__label">Name</label>
-        <input type="text" class="form__field" placeholder="Name" name="name" id='name' required />
 
         <label>Email</label>
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />

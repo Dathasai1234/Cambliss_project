@@ -4,10 +4,6 @@
     padding: 0%;
 }
 
-.sidebar.hide {
-    height: 100vh;
-}
-
 .sidebar {
     height: 200vh;
     width: 300px;
