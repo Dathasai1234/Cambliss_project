@@ -1,3 +1,44 @@
-.flex-container {
+.containers {
     display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero h1 {
+    color: goldenrod;
+    font-size: 4rem;
+}
+
+.hero ion-icon {
+    font-size: 5rem;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+ion-icon:hover {
+    color: goldenrod;
+}
+
+.ordertracking {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ordertracking h1 {
+    align-items: center;
 }

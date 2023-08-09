@@ -1,0 +1,54 @@
+.progress {
+    width: 100%;
+}
+
+.tracking-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.z1,
+.z2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.z1 label,
+.z2 label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ////////////////////////////////////////////////// */
+
+table {
+    margin-top: 50px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    width: 100%;
+    border: rgb(255, 255, 255) 3px solid;
+    font-size: 18px;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    font-size: small;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    background-color: goldenrod;
+}

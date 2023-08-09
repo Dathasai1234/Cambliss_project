@@ -14,7 +14,6 @@ function App() {
       <Route path='/fileShare' element = {<FileShare />}/>
       <Route path='/ordertrack' element = {<OrderTracker />}/>
     </Routes>
-    {/* <Navigation /> */}
     <Sidebar />
   </>
 }
