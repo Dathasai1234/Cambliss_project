@@ -6,6 +6,10 @@ const Sidebar = () => {
 
     return (
         <div className={`${styles.sidebar}`}>
+            <Link className= {styles.link}to="/">
+                <img src='https://cdn.iconscout.com/icon/premium/png-512-thumb/progress-1467385-1243782.png?f=avif&w=256' alt='logo'/>
+                <h1>inShare</h1>
+            </Link>
             <Link
                 className={`${styles.link}`}
                 to="/"
