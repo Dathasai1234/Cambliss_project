@@ -2,13 +2,14 @@
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
 
-export function BasicProgress() {
+export function BasicProgress({progress}) {
+
     return <>
         <ProgressBar
             width={900}
             height={8}
             // change Proress here
-            percent={59}
+            percent={progress}
             // 6 - Order Placed
             // 24 - UI/UX
             // 41 - Testing

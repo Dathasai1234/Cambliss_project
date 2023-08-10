@@ -52,3 +52,36 @@ th {
     text-align: left;
     background-color: goldenrod;
 }
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions label {
+    cursor: pointer;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.label1 {
+    border: green 4px solid;
+}
+
+.label2 {
+    border: red 4px solid;
+}
+
+.label1:hover {
+    background-color: green;
+    color: white;
+}
+
+.label2:hover {
+    background-color: red;
+    color: white;
+}
